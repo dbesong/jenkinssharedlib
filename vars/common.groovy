@@ -12,6 +12,8 @@ def call(String stageName){
     else if ("${stageName}" == "upload into Nexus")
        {
         sh "mvn clean deploy"
+
+        "echo Iam a build and release engineer"
        }
 
 
